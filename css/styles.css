@@ -21,6 +21,8 @@ body {
 
 .list {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .visually-hidden {
@@ -35,7 +37,13 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
-
+.container {
+  width: 1200px;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid red;
+}
 /* --------------------------------HEADER-------------------------------- */
 
 /* web studio */
@@ -72,6 +80,10 @@ body {
 .header-list-ietm:focus {
   color: var(--secondary-text-color);
 }
+.header-list {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 
 /* --------------------------------NAV-------------------------------- */
 
@@ -89,6 +101,10 @@ body {
   color: var(--secondary-text-color);
   text-decoration: none;
 }
+.site-nav-list {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 
 /* --------------------------------HERO-------------------------------- */
 
@@ -97,6 +113,9 @@ body {
 }
 
 .hero-title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -119,20 +138,28 @@ body {
   cursor: pointer;
 }
 
+.hero-container {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
 /* --------------------------------COMPANY-------------------------------- */
 /* .company {
 
-}
+} */
 
 .company-list {
-  
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
-.company-item {
+/* .company-item {
 
 } */
 
 .company-title {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -142,6 +169,8 @@ body {
 }
 
 .company-text {
+  margin: 0;
+  padding: 0;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -159,6 +188,9 @@ body {
 } */
 
 .pichers-title {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -170,12 +202,21 @@ body {
 /* .pichers-foto {
     
 } */
+/* .pichers-foto:first-child {
+} */
+.pichers-foto:last-child {
+  padding-bottom: 94px;
+}
 
 /* --------------------------------TEAM-------------------------------- */
 /* .team {
 }
  */
 .team-title {
+  margin: 0;
+  padding: 0;
+  padding-top: 94px;
+  padding-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -189,11 +230,13 @@ body {
 
 } */
 
-/* .team-list-item{
-
-} */
+.team-list-item {
+  padding-bottom: 94px;
+}
 
 .team-item {
+  margin: 0;
+  padding: 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -203,6 +246,8 @@ body {
 }
 
 .team-text {
+  margin: 0;
+  padding: 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -253,6 +298,10 @@ body {
   letter-spacing: 0.03em;
   color: var(--footer-text-color);
   text-decoration: none;
+}
+.footer-container {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 /* ----------------------------------------------------------------PORTFOLIO---------------------------------------------------------------- */
 
