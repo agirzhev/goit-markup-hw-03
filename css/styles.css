@@ -42,7 +42,7 @@ body {
   text-align: center;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 /* --------------------------------HEADER-------------------------------- */
 
@@ -165,9 +165,6 @@ body {
   padding-bottom: 200px;
 }
 /* --------------------------------COMPANY-------------------------------- */
-/* .company {
-
-} */
 
 .company-list {
   display: flex;
@@ -203,9 +200,6 @@ body {
 }
 
 /* --------------------------------PICHERS-------------------------------- */
-/* .pichers {
-
-} */
 
 .pichers-list {
   display: flex;
