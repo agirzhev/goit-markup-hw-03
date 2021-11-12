@@ -331,8 +331,6 @@ body {
   color: var(--primery-background-color);
 }
 .footer-link {
-  /* padding: 0;
-  margin: 0; */
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -353,16 +351,17 @@ body {
 /* ----------------------------------------------------------------PORTFOLIO---------------------------------------------------------------- */
 
 /* --------------------------------FILTERS-------------------------------- */
-/* .filters{
 
-} */
-
-/* .filters-list{
-
-} */
+.filters-list {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+  border-color: var(--section-background-color);
+}
 
 .filters-button {
-  background-color: var(--section-background-color);
   color: var(--primery-text-color);
   font-family: inherit;
   font-weight: 500;
@@ -370,27 +369,48 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--primery-text-color);
+  border-radius: 4px;
   cursor: pointer;
-}
-
-.filters-button :hover,
-.filters-button :focus {
-  background-color: var(--secondary-text-color);
-  color: var(--primery-background-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.filters-item {
+  margin-left: 8px;
+  height: 38px;
+}
+
+.filters-item-fist {
+  margin-left: 0px;
+}
+
+.filters-item :hover,
+.filters-item :focus {
+  background-color: var(--secondary-text-color);
+  color: var(--primery-background-color);
 }
 
 /* --------------------------------PORTFOLIO-------------------------------- */
 
 /* .portfolio {
-}
-
-.portfolio-list {
 } */
 
+.portfolio-list {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.portfolio-fofto {
+  margin-bottom: 20px;
+}
 .portfolio-title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 4px;
+  padding-left: 24px;
+  padding-right: 24px;
+  text-align: left;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -399,6 +419,12 @@ body {
 }
 
 .portfolio-text {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  text-align: left;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
